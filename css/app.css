@@ -53,8 +53,8 @@ body section .photo-gallery { margin-top: 50px; margin-bottom: -7rem; }
 body .services { background: #eee; }
 body .services h3 { font-size: 1rem; }
 body .services .callout { font-size: 1rem; }
-body .services .service { margin-top: 30px; }
-body .services .service .callout { padding: 1rem 1rem 1rem 5rem; margin-bottom: 2rem; border: none; }
+body .services .service { margin-top: 80px; }
+body .services .service .callout { padding: 1rem 1rem 1rem 1rem; margin-bottom: 2rem; border: none; }
 body .services .behavior-management { background: url(../assets/icons/brain.svg) no-repeat 1rem 1rem; background-size: 43px; }
 body .services .skills-acquisition { background: url(../assets/icons/tools.svg) no-repeat 1rem 1rem; background-size: 43px; }
 body .callout-contact { background: #0A8255; border: none; padding: 3rem; }
