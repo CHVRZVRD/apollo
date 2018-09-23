@@ -19,9 +19,6 @@ body section h2 {
     background: #DAFFF0; }
   .services .callout {
     color: #ffffff; }
-    .services .callout .button {
-      color: #0A8255;
-      background: #DAFFF0; }
   .services .subheader {
     color: #ffffff;
     letter-spacing: 0.5px;
@@ -29,7 +26,41 @@ body section h2 {
   .services li {
     font-size: 0.875rem;
     font-weight: 300;
-    letter-spacing: .6px; }
+    letter-spacing: .6px;
+    border: none; }
+
+.ceo h3 {
+  font-size: 2.1rem;
+  font-weight: bold;
+  letter-spacing: .8px; }
+
+.ceo h4 {
+  font-size: 1rem; }
+
+.ceo p {
+  font-size: 1rem; }
+
+.team h3 {
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: .5px; }
+
+.team h4 {
+  font-size: .875rem;
+  color: #9B9B9B; }
+
+.testimonials {
+  color: #ffffff; }
+  .testimonials h3 {
+    font-size: 1rem;
+    letter-spacing: .5px;
+    font-weight: bold;
+    margin-bottom: 2px; }
+  .testimonials h4 {
+    font-size: .75rem;
+    margin-bottom: 15px; }
+  .testimonials p {
+    font-size: 1rem; }
 
 .photo-gallery {
   margin-top: 104px !important;
@@ -46,3 +77,44 @@ body .services {
       body .services .callout ul li:not(:last-child) {
         border-bottom: 1px solid rgba(218, 255, 240, 0.18);
         padding: 5px; }
+    body .services .callout .button {
+      color: #0A8255;
+      background: #DAFFF0;
+      padding: 5px 10px;
+      line-height: 1.1;
+      font-size: 0.75rem; }
+  body .services .service-icon {
+    padding-bottom: .625rem; }
+  body .services .service-blurb {
+    text-align: left; }
+
+body .ceo {
+  background: rgba(151, 151, 151, 0.08); }
+
+.ceo {
+  padding: 0; }
+  .ceo .cell {
+    padding: 0; }
+  .ceo-image {
+    width: 100%;
+    height: 100%; }
+  .ceo-quote {
+    margin-top: 153px; }
+  .ceo-text {
+    margin-top: 30%;
+    margin-bottom: 30%; }
+  .ceo-lead {
+    padding-bottom: 4px;
+    padding-top: 17px; }
+
+.team-lead {
+  padding-bottom: 64px; }
+
+.team-icon {
+  width: 1.125rem; }
+
+body .testimonials {
+  background: #0A8255; }
+
+body .contact-us {
+  background: url(../../assets/map.jpg) center; }

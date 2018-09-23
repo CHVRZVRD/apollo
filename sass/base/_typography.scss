@@ -22,10 +22,10 @@ body section h2 {
     .callout {
         color: #ffffff;
 
-        .button {
-            color: #0A8255;
-            background: #DAFFF0;
-        }
+        // .button {
+        //     color: #0A8255;
+        //     background: #DAFFF0 url(../assets/icons/arrow.svg) no-repeat 0.5rem right;
+        // }
     }
     
     .subheader {
@@ -39,6 +39,50 @@ body section h2 {
         font-size: 0.875rem;
         font-weight: 300;
         letter-spacing: .6px;
+        border: none;
     }
 
+}
+
+.ceo {
+    h3 {
+        font-size: 2.1rem; 
+        font-weight: bold;
+        letter-spacing: .8px;
+    }
+    h4 {
+        font-size: 1rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+}
+
+.team {
+    h3 {
+        font-size: 1rem;
+        font-weight: 500;
+        letter-spacing: .5px;
+    }
+    h4 {
+        font-size: .875rem;
+        color: #9B9B9B;
+    }
+}
+
+.testimonials {
+    color: #ffffff;
+    h3 {
+        font-size: 1rem;
+        letter-spacing: .5px;
+        font-weight: bold;
+        margin-bottom: 2px;
+    }
+    h4 {
+        font-size: .75rem;
+        margin-bottom: 15px;
+    }
+    p {
+        font-size: 1rem;
+    }
 }
