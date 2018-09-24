@@ -4,5 +4,17 @@
     }
     &-icon {
         width: 1.125rem;
+        height: 1.125rem;
     }
+
+    &-pictures {
+        display: flex;
+        // align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &-title {
+        display: flex;
+        justify-content: space-between;
+    }    
 }

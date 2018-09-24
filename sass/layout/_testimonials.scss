@@ -1,3 +1,13 @@
-body .testimonials {
+.testimonials {
     background: #0A8255;
+    padding-top: 3rem; 
+
+    &-box {
+        background: url(../../assets/icons/quotes2.svg) no-repeat left;
+    }
+
+    &-text {
+        padding-left: 68px;
+        padding-top: 73px;
+    }
 }
