@@ -4,16 +4,23 @@ body .services {
     .callout {
         text-align: center;
         background: #0A8255;
+        height: 100%;
+        // display: flex;
+        // flex-direction: column;
+        position: relative;
 
         ul {
             list-style: none;
             margin-left: 0;
 
-            li:not(:last-child) {
-                border-bottom: 1px solid rgba(#DAFFF0, .18);
+            li {
                 padding: 5px;
                 
+                &:not(:last-child) {
+                    border-bottom: 1px solid rgba(#DAFFF0, .18);
+                }
             }
+
 
             // li::after {
             //     content: "";
@@ -32,20 +39,34 @@ body .services {
             padding: 5px 10px;
             line-height: 1.1;
             font-size: 0.75rem;
+            // margin: auto;
+            // vertical-align: baseline;
+            position: absolute;
+		    bottom: 5px;
+		    left: 50%;
+		    transform: translate(-50%, -50%);
         }
 
     }
 
     .service {
+        margin-top: 32px;
 
         &-icon {
             padding-bottom: .625rem;
+            padding-top: 32px;
         }
 
         &-blurb {
             // font-size: .75rem;
             text-align: left;
         }
+
+        // &-buttonbox {
+        //     margin-top: 15px;
+        //     margin-bottom: 15px;
+        // }
+
     }
     
 }

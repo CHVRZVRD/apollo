@@ -3,13 +3,13 @@
 }
 
 body section h2 { 
-    font-size: 2.1rem; 
+    // font-size: 2.1rem; 
     font-weight: bold;
-    letter-spacing: .8px;  
+    // letter-spacing: .8px;  
 }
 
 .lead {
-    line-height: 2;
+    // line-height: 2;
 }
 
 .services {
@@ -31,74 +31,78 @@ body section h2 {
     .subheader {
         color: #ffffff;
         // line-height: 2.2;
-        letter-spacing: 0.5px;
+        // letter-spacing: 0.5px;
         font-weight: 500;
     }
 
     li {
-        font-size: 0.875rem;
+        font-size: 0.7rem;
         font-weight: 300;
-        letter-spacing: .6px;
+        // letter-spacing: .6px;
         border: none;
+        text-transform: uppercase;
     }
 
 }
 
 .ceo {
     h3 {
-        font-size: 2.1rem; 
         font-weight: bold;
-        letter-spacing: .8px;
+        // font-size: 2.1rem; 
+        // letter-spacing: .8px;
     }
-    h4 {
-        font-size: 1rem;
+    h6 {
+        font-weight: 400;
     }
     p {
-        font-size: 1rem;
+        // font-size: 1rem;
     }
 }
 
 .team {
-    h3 {
-        font-size: 1rem;
+    h6 {
+        // font-size: 1rem;
         font-weight: 500;
-        letter-spacing: .5px;
+        // letter-spacing: .5px;
         margin-top: 10px;
         margin-bottom: 2px;
     }
-    h4 {
-        font-size: .875rem;
-        color: #9B9B9B;
+    p {
+        // font-size: .875rem;
+        // color: #9B9B9B;
         padding-top: 2px;
+    }
+    &-title {
+        color: #9B9B9B;
     }
 }
 
 .testimonials {
     color: #ffffff;
-    h3 {
-        font-size: 1rem;
-        letter-spacing: .5px;
+    h3, h6 {
+        // font-size: 1rem;
+        // letter-spacing: .5px;
         font-weight: bold;
         margin-bottom: 2px;
     }
-    h4 {
-        font-size: .75rem;
-        margin-bottom: 15px;
-    }
+    // h4 {
+    //     // font-size: .75rem;
+    //     margin-bottom: 15px;
+    // }
     p {
-        font-size: 1rem;
+        // font-size: 1rem;
     }
 }
 
 .contact-us {
-    h3 {
-        font-size: 1rem;
+    h6 {
+        // font-size: 1rem;
         font-weight: bold;
         padding-left: 30%;
     }
 
     p {
-        font-size: 1rem;
+        margin-bottom: 0px;
     }
 
 }
@@ -115,7 +119,8 @@ body section h2 {
     p {
         text-align: center;
         color: #9B9B9B;
-        font-size: .75rem;
+        margin-bottom: 0;
+        // font-size: .75rem;
         
     }
 

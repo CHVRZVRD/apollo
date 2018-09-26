@@ -1,20 +1,20 @@
 .contact-us {
-    background: url(../../assets/map.jpg) center;
+    background: url(../assets/map.jpg) center;
 
     // background-attachment: fixed;
 
     &-icon {
 
         &-phone {
-            background: url(../../assets/icons/phone2.svg) no-repeat left;
+            background: url(../assets/icons/phone2.svg) no-repeat left;
         }
 
         &-email {
-            background: url(../../assets/icons/email2.svg) no-repeat left;
+            background: url(../assets/icons/email2.svg) no-repeat left;
         }
 
         &-pin {
-            background: url(../../assets/icons/pin2.svg) no-repeat;
+            background: url(../assets/icons/pin2.svg) no-repeat;
         }
     }
 
@@ -33,12 +33,12 @@
     }
 
     input {
-        border: 1px solid #666666;
+        // border: 1px solid #666666;
     }
 
     textarea {
         height: 12rem;
-        border: 1px solid #666666;
+        // border: 1px solid #666666;
     }
 
     // &-button {
@@ -47,6 +47,14 @@
 }
 
 .contact-info {
+
+    &-icon {
+
+        // margin-left: auto;
+        // margin-right: auto;
+        // margin-bottom: auto;
+        margin: auto;
+    }
         
         &-grid {
             display: grid;
@@ -54,15 +62,20 @@
 
             // margin-top: 11.5rem;
             display: grid;
-            grid-template-columns: auto auto;
+            grid-template-columns: 15% auto;
             grid-row-gap: 1.5rem;
-            grid-column-gap: 60px;
+            // grid-column-gap: 60px;
             // line-height: 1.88;
             // margin-left: 15%;
             // padding-right: 17.3rem;
+            position: relative;
 
             &-content {
                 width: 197px;
+                // margin-top: 19px;
+                // margin-bottom: 50%;
+                // margin-bottom: auto;
+                // margin-right: auto;
 		        // letter-spacing: .08rem;
             }
 
