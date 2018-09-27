@@ -68,9 +68,11 @@ body section h2 {
   color: #ffffff;
   font-weight: bold; }
 
-.photo-gallery {
+.about-photo-gallery {
   margin-top: 104px !important;
   margin-bottom: -7.5rem !important; }
+  .about-photo-gallery-img {
+    width: 100%; }
 
 body .services {
   background: #0A8255; }
@@ -109,6 +111,8 @@ body .services {
   padding: 0; }
   .ceo .cell {
     padding: 0; }
+  .ceo-image {
+    width: 100%; }
   .ceo-text {
     background: url(../assets/icons/quotes.svg) no-repeat left;
     padding-left: 17%;
