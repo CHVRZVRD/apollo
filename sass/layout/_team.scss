@@ -10,8 +10,21 @@
     &-pictures {
         display: flex;
         // align-items: center;
-        justify-content: space-between;
+        // justify-content: space-between;
+        justify-content: center;
         flex-wrap: wrap;
+        // align-content: center;
+
+        &-box {
+            margin: auto;
+        }
+
+        // &-img {
+        //     position: absolute;
+		//     // bottom: 5px;
+		//     left: 50%;
+		//     transform: translate(-50%, -50%);
+        // }
     }
     &-title {
         display: flex;
