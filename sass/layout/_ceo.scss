@@ -1,5 +1,7 @@
 .ceo {
     background: rgba(#979797, .08);
+    // background: url(../assets/ceo.jpg) no-repeat left rgba(#979797, .08);
+    // background-size: cover;
     padding: 0;
 
     .cell {
@@ -7,8 +9,12 @@
     }
 
     &-image {
-        width: 100%;
-        height: 100%;
+        // width: 100%;
+        // height: 100%;
+        // background-size: cover;
+        // background: url(../assets/ceo.jpg) no-repeat;
+        // background-size: 100%;
+        // background-position: center;
 
     }
 
