@@ -68,6 +68,9 @@ body section h2 {
   color: #ffffff;
   font-weight: bold; }
 
+.hero {
+  background-position: right; }
+
 .about-photo-gallery {
   margin-top: 104px !important;
   margin-bottom: -7.5rem !important; }
