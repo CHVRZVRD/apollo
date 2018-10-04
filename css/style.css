@@ -93,7 +93,7 @@ body .services {
           border-bottom: 1px solid rgba(218, 255, 240, 0.18); }
     body .services .callout .button {
       color: #0A8255;
-      background: #DAFFF0;
+      background-color: #DAFFF0;
       padding: 5px 10px;
       line-height: 1.1;
       font-size: 0.75rem;
@@ -203,6 +203,7 @@ body .services {
 
 .footer {
   padding-top: 40px;
+  padding-bottom: 10px;
   background: rgba(151, 151, 151, 0.08); }
   .footer-logo {
     width: 50px;
