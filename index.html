@@ -1,6 +1,8 @@
 <!doctype html>
 <html class="no-js" lang="en" dir="ltr">
   <head>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -87,7 +89,7 @@
       </ul>
     </div>
     <div class="off-canvas-content" data-off-canvas-content>
-      <div class="top">
+      <div class="hide-for-small-only top">
         <div class="grid-container">
           <div class="grid-x grid-padding-x">
             <div class="medium-9 cell">
@@ -99,7 +101,7 @@
             </div>
              <div class="medium-3 cell">
               <ul class="menu float-right">
-                <li class="employee-login show-for-medium" data-open="employeeLogin"><a>Employee Login</a></li>
+                <li class="employee-login show-for-medium" data-open="employeeLogin"><a class="employee">Employee Login</a></li>
               </ul>
             </div>
           </div>
@@ -143,10 +145,10 @@
       <section class="about">
         <div class="grid-container">
           <div class="grid-x grid-padding-x">
-            <div class="large-12 cell">
+            <div class="about-us large-12 cell">
               <h2 class="text-center">About Us</h2>
               <div class="grid-x">
-                <div class="cell large-8 large-offset-2">
+                <div class="about-text cell large-8 large-offset-2">
                   <p class="lead">Apollo Adult Day Program is a community-based program firmly based on training principles and practices that are fully-endorsed and supported by the California State Department of Education, Office of Special Education. </p>
                   <p class="lead">Our training and community integrated activities are designed to empower our clients to become more independent and self-reliant, while also becoming more involved in their own community. </p>
                 </div>
@@ -179,15 +181,16 @@
       <section class="services">
         <div class="grid-container">
           <div class="grid-x grid-padding-x">
-            <div class="large-12 cell">
+            <div class="our-services large-12 cell">
               <h2 class="text-center services-head">Our Services</h2>
               <div class="grid-x">
                 <div class="cell large-8 large-offset-2">
                   <p class="lead">AADP interrelates, integrates, includes and connects the personal interests, preferences and choices of clients with real and simulated “hands-on” pre-vocational training activities, while simultaneously offering social and recreational experiences in the community.</p>
                 </div>
               </div>
+            </div>
               <div class="grid-x grid-padding-x medium-up-2 large-up-4 service">
-                <div class="medium-3 cell">
+                <div class="services-row1 medium-3 cell">
                   <div class="callout">
                     <img class="service-icon" src="assets/icons/headbulb.svg" alt="headbulb icon">
                     <h3 class="subheader">Pre-Vocational Training</h3>
@@ -200,7 +203,7 @@
                     <a href="#0" class="button arrow">Learn More <strong>&nbsp❯</strong></a>         
                   </div>
                 </div>
-                <div class="medium-3 cell">
+                <div class="services-row1 medium-3 cell">
                   <div class="callout">
                     <img class="service-icon" src="assets/icons/bandaid.svg" alt="headbulb icon">
                     <h3 class="subheader">Rehabilitation</h3>
@@ -213,7 +216,7 @@
                     <a href="#0" class="button arrow">Learn More <strong>&nbsp❯</strong></a>
                   </div>
                 </div>
-                <div class="medium-3 cell">
+                <div class="services-row1 medium-3 cell">
                   <div class="callout">
                     <img class="service-icon" src="assets/icons/community.svg" alt="headbulb icon">
                     <h3 class="subheader">Community Outings</h3>
@@ -226,7 +229,7 @@
                     <a href="#0" class="button arrow">Learn More <strong>&nbsp❯</strong></a>
                   </div>
                 </div>
-                <div class="medium-3 cell">
+                <div class="services-row1 medium-3 cell">
                   <div class="callout">
                     <img class="service-icon" src="assets/icons/clipboard.svg" alt="headbulb icon">
                     <h3 class="subheader">Social Work</h3>
@@ -239,7 +242,7 @@
                     <a href="#0" class="button arrow">Learn More <strong>&nbsp❯</strong></a>
                   </div>
                 </div>
-                <div class="medium-3 cell">
+                <div class="services-row2 medium-3 cell">
                   <div class="callout">
                     <img class="service-icon" src="assets/icons/basketball.svg" alt="headbulb icon">
                     <h3 class="subheader">Recreational & Social Activities</h3>
@@ -252,7 +255,7 @@
                     <a href="#0" class="button arrow">Learn More <strong>&nbsp❯</strong></a>
                   </div>
                 </div>
-                <div class="medium-3 cell">
+                <div class="services-row2 medium-3 cell">
                   <div class="callout">
                     <img class="service-icon" src="assets/icons/gym.svg" alt="headbulb icon">
                     <h3 class="subheader">Physical Fitness</h3>
@@ -265,7 +268,7 @@
                     <a href="#0" class="button arrow">Learn More <strong>&nbsp❯</strong></a>
                   </div>
                 </div>
-                <div class="medium-3 cell">
+                <div class="services-row2 medium-3 cell">
                   <div class="callout">
                     <img class="service-icon" src="assets/icons/car.svg" alt="headbulb icon">
                     <h3 class="subheader">Transportation</h3>
@@ -278,7 +281,7 @@
                     <a href="#0" class="button arrow">Learn More <strong>&nbsp❯</strong></a>
                   </div>
                 </div>
-                <div class="medium-3 cell">
+                <div class="services-row2 medium-3 cell">
                   <div class="callout">
                     <img class="service-icon" src="assets/icons/brain2.svg" alt="headbulb icon">
                     <h3 class="subheader">Senior Programs</h3>
@@ -311,8 +314,10 @@
                 <div class="ceo-text">
                   <h3 class="">Bianca Baquirin</h3>
                   <h6 class="subheader">C.E.O. and Executive Director</h6>
-                  <p class="lead ceo-lead">Here at AADP, we are very passionate about what we do and the type of community we want to create. Our goal is to foster independence and assist every client to become a contributing member of our society using a personal approach. We invision an inclusive community that accepts those with special needs to live independently, free from judgment.</p>
-                  <img src="assets/icons/linkedin.svg" alt="linkedin">
+                  <p class="lead ceo-lead">Here at AADP, we are very passionate about what we do and the type of community we want to create. Our goal is to foster independence and assist every client to become a contributing member of our society using a person-centered approach. We invision an inclusive community that accepts those with special needs to live independently, free from judgment.</p>
+                  <a href="#">
+                    <img class="icon" src="assets/icons/linkedin.svg" alt="linkedin">
+                  </a>
                 </div>  
               <!-- </div> -->
             </div>
@@ -335,7 +340,9 @@
                       <h6>Patrick Laurel</h6>
                       <div class="team-title">
                         <p>Program Manager</p>
-                        <img class="team-icon" src="assets/icons/linkedin.svg" alt="linkedin">
+                        <a href="#">
+                          <img class="icon team-icon" src="assets/icons/linkedin.svg" alt="linkedin">
+                        </a>
                       </div>  
                     </div>
                     <div class="team-pictures-box">
@@ -343,7 +350,9 @@
                       <h6>Aileen Laurel</h6>
                       <div class="team-title">
                         <p>Program Coordinator</p>
-                        <img class="team-icon" src="assets/icons/linkedin.svg" alt="linkedin">
+                        <a href="#">
+                          <img class="icon team-icon" src="assets/icons/linkedin.svg" alt="linkedin">
+                        </a>
                       </div>  
                     </div> 
                     <div class="team-pictures-box">
@@ -351,7 +360,9 @@
                       <h6>Willie Andres</h6>
                       <div class="team-title">
                         <p>Lead Staff</p>
-                        <img class="team-icon" src="assets/icons/linkedin.svg" alt="linkedin">
+                        <a href="#">
+                          <img class="icon team-icon" src="assets/icons/linkedin.svg" alt="linkedin">
+                        </a>
                       </div>  
                     </div>
                     <div class="team-pictures-box">
@@ -359,7 +370,9 @@
                       <h6>Roxanne Luistro</h6>
                       <div class="team-title">
                         <p>Community Outreach</p>
-                        <img class="team-icon" src="assets/icons/linkedin.svg" alt="linkedin">
+                        <a href="#">
+                          <img class="icon team-icon" src="assets/icons/linkedin.svg" alt="linkedin">
+                        </a>
                       </div>  
                     </div>
                     <div class="team-pictures-box">
@@ -367,7 +380,9 @@
                       <h6>Onie Cigaral</h6>
                       <div class="team-title">
                         <p>Executive Assistant</p>
-                        <img class="team-icon" src="assets/icons/linkedin.svg" alt="linkedin">
+                        <a href="#">
+                          <img class="icon team-icon" src="assets/icons/linkedin.svg" alt="linkedin">
+                        </a>
                       </div>  
                     </div>  
                   </div>
@@ -444,7 +459,7 @@
                         </label>
                       </div>
                       <div class="large-12 cell">
-                        <a class="button float-right contact-us-button" href="#">Send Message</a>
+                        <a class="button float-right" href="#">Send Message</a>
                       </div> 
                     </div>
                   </div>
@@ -474,7 +489,7 @@
                                 <div><p>303 N 15th Street San Jose, California 95112</p></div>
                             </div>
                         </div>
-                        <img class="contact-us-pin" src="assets/icons/pin2.svg" alt=""> 
+                        <img class="hide-for-small-only contact-us-pin" src="assets/icons/pin2.svg" alt=""> 
                     <!-- </div> -->
 
                   </div>
@@ -487,21 +502,21 @@
         <div class="grid-container">
           <div class="grid-x grid-padding-x">
 
-            <div class="cell medium-6 grid-x">
+            <div class="cell shrink medium-6 grid-x">
 
               <img class="footer-logo" src="assets/logo.png" alt="logo">
               <ul class="menu float-right">
-                <li class="show-for-large"><a href="#">Home</a></li>
-                <li class="show-for-large"><a href="#">About</a></li>
-                <li class="show-for-large"><a href="#">Services</a></li>
-                <li class="show-for-large"><a href="#">Team</a></li>
-                <li class="show-for-large"><a href="#">Contact</a></li>
+                <li class="show-for-large"><a class="footer-link" href="#">Home</a></li>
+                <li class="show-for-large"><a class="footer-link" href="#">About</a></li>
+                <li class="show-for-large"><a class="footer-link" href="#">Services</a></li>
+                <li class="show-for-large"><a class="footer-link" href="#">Team</a></li>
+                <li class="show-for-large"><a class="footer-link" href="#">Contact</a></li>
               </ul>
 
             </div>
-            <div class="cell medium-6 footer-buttons">
-              <div class="footer-social"><img src="assets/icons/linkedin3.svg" alt="linkedin"></div>    
-              <div class="footer-social"><img src="assets/icons/facebook.svg" alt="facebook"></div>    
+            <div class="cell shrink medium-6 footer-buttons">
+              <div class="footer-social"><img class="icon" src="assets/icons/linkedin3.svg" alt="linkedin"></div>    
+              <div class="footer-social"><img class="icon" src="assets/icons/facebook.svg" alt="facebook"></div>    
               <div><a class="button footer-button float-right" href="#">Donate</a></div>
             </div>  
             

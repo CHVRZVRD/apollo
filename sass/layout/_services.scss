@@ -44,7 +44,20 @@ body .services {
             position: absolute;
 		    bottom: 5px;
 		    left: 50%;
-		    transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            // display: inline-block;
+
+            &:hover {
+                transform: translate(-50%, -50%) translateY(-3px);
+                box-shadow: 0 10px 20px rgba(#000000,.2);
+            }
+
+            &:active,
+            &:focus {
+                outline: none;
+                transform: translate(-50%, -50%) translateY(-1px);
+                box-shadow: 0 5px 10px rgba(#000000,.2);
+            }
         }
 
     }
@@ -68,7 +81,14 @@ body .services {
         // }
 
     }
+
+    @media screen and (max-width: 63.9375em) {
+        .service-blurb {
+            text-align: center;
+        }
+    }
     
 }
+
 
 

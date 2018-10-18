@@ -1,0 +1,48 @@
+.icon,
+.button {
+
+    &:link,
+    &:visited {
+        transition: .2s ease-in-out;
+
+        &:active,
+        &:focus {
+            outline: none;
+            transform: translateY(-1px);
+            box-shadow: 0 5px 10px rgba(#000000,.1);
+        }
+
+    }
+
+    &:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 10px 20px rgba(#000000,.1);
+    }
+
+}
+
+.icon {
+    transition: .2s ease-in-out;
+    cursor: pointer;
+
+    &:active,
+    &:focus {
+        outline: none;
+        transform: translateY(-1px);
+        box-shadow: 0 5px 10px rgba(#000000,.1);
+        }
+}
+
+.footer-link:hover {
+    transition: .2s ease-in-out;
+    color: #0A8255;
+}
+
+.email,
+.phone,
+.location,
+.employee {
+    &:hover {
+        color: #DAFFF0;
+    }
+}

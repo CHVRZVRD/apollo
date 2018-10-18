@@ -1,5 +1,5 @@
 .about {
-
+    
     &-photo-gallery {
         margin-top: 104px !important;
         margin-bottom: -7.5rem !important;
@@ -12,3 +12,27 @@
 
 }
 
+// @media screen and (max-width: 39.9375em) {
+//     .about{ 
+//         padding-left: 0px;
+//         padding-right: 0px;
+
+//         &-text {
+//             padding-left: 1rem;
+//             padding-right: 1rem;
+//         }
+//     }
+    
+// }
+
+@media screen and (max-width: 63.9375em) {
+    .about{ 
+        padding-left: 0px;
+        padding-right: 0px;
+
+        &-text {
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+    }
+}

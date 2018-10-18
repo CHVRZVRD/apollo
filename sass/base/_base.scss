@@ -2,3 +2,22 @@ section {
     padding-top: 6.25rem;
     padding-bottom: 7.5rem;
 }
+
+// @media screen and (max-width: 39.9375em) {
+//     section { 
+//         padding-top: 5.25rem;
+//         padding-bottom: 6.5rem;
+//         padding-left: 1rem;
+//         padding-right: 1rem;
+//     }
+    
+// }
+
+@media screen and (max-width: 63.9375em) {
+    section { 
+        padding-top: 5.25rem;
+        padding-bottom: 6.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
