@@ -12,15 +12,95 @@
 // ScrollReveal().reveal('.contact-us', { delay: 1000 });
 // ScrollReveal().reveal('.footer');
 
+// ScrollReveal().reveal('.about-us', { 
+//     viewFactor: 0.5,
+//     duration: 1000,
+//     mobile: false 
+// });
+
+
+// ScrollReveal().reveal('.about-photo-gallery', { 
+//     viewFactor: 0.3,
+//     delay:500,
+//     duration: 1000,
+//     mobile: false 
+//  });
+
+
+// ScrollReveal().reveal('.our-services', { 
+//     viewFactor: 0.5,
+//     duration: 1000,
+//     mobile: false 
+// });
+
+// ScrollReveal().reveal('.services-row1', { 
+//     // delay: 900,
+//     viewFactor: 0.8,
+//     distance: '100px',
+//     duration: 1200,
+//     mobile: false  
+//  });
+
+// ScrollReveal().reveal('.services-row2', { 
+//     // delay: 900,
+//     viewFactor: 0.8,
+//     distance: '100px',
+//     duration: 1200,
+//     mobile: false  
+//  });
+
+// ScrollReveal().reveal('.ceo-image', { 
+//     viewFactor: 0.5,
+//     distance: '110px',
+//     duration: 1000,
+//     origin: 'left',
+//     mobile: false 
+// });
+
+// ScrollReveal().reveal('.ceo-text', { 
+//     delay: 1400,
+//     viewFactor: 0.3,
+//     distance: '110px',
+//     duration: 1000,
+//     origin: 'right',
+//     mobile: false 
+//  });
+
+// ScrollReveal().reveal('.team', { 
+//     viewFactor: 0.5,
+//     duration: 1000,
+//     mobile: false 
+// });
+
+// ScrollReveal().reveal('.team-pictures', { 
+//     viewFactor: 0.5,
+//     delay: 800,
+//     distance: '110px',
+//     duration: 1000,
+//     mobile: false 
+//  });
+
+// ScrollReveal().reveal('.testimonials', { 
+//     viewFactor: 0.5,
+//     delay:500,
+//     distance: '110px',
+//     duration: 1000,
+//     mobile: false 
+//  });
+
+// ScrollReveal().reveal('.contact-us', { 
+//     viewFactor: 0.5,
+//     mobile: false 
+//  });
+
 ScrollReveal().reveal('.about-us', { 
     viewFactor: 0.5,
     duration: 1000,
     mobile: false 
 });
 
-
 ScrollReveal().reveal('.about-photo-gallery', { 
-    viewFactor: 0.3,
+    viewFactor: 0.2,
     delay:500,
     duration: 1000,
     mobile: false 
@@ -36,7 +116,7 @@ ScrollReveal().reveal('.our-services', {
 ScrollReveal().reveal('.services-row1', { 
     // delay: 900,
     viewFactor: 0.8,
-    distance: '100px',
+    // distance: '100px',
     duration: 1200,
     mobile: false  
  });
@@ -44,25 +124,26 @@ ScrollReveal().reveal('.services-row1', {
 ScrollReveal().reveal('.services-row2', { 
     // delay: 900,
     viewFactor: 0.8,
-    distance: '100px',
+    // distance: '100px',
     duration: 1200,
     mobile: false  
  });
 
 ScrollReveal().reveal('.ceo-image', { 
-    viewFactor: 0.5,
-    distance: '110px',
+    delay: 500,
+    viewFactor: 0.2,
+    // distance: '110px',
     duration: 1000,
-    origin: 'left',
+    // origin: 'left',
     mobile: false 
 });
 
 ScrollReveal().reveal('.ceo-text', { 
-    delay: 1400,
+    delay: 1200,
     viewFactor: 0.3,
-    distance: '110px',
+    // distance: '110px',
     duration: 1000,
-    origin: 'right',
+    // origin: 'right',
     mobile: false 
  });
 
@@ -75,7 +156,7 @@ ScrollReveal().reveal('.team', {
 ScrollReveal().reveal('.team-pictures', { 
     viewFactor: 0.5,
     delay: 800,
-    distance: '110px',
+    // distance: '110px',
     duration: 1000,
     mobile: false 
  });
@@ -83,7 +164,7 @@ ScrollReveal().reveal('.team-pictures', {
 ScrollReveal().reveal('.testimonials', { 
     viewFactor: 0.5,
     delay:500,
-    distance: '110px',
+    // distance: '110px',
     duration: 1000,
     mobile: false 
  });
@@ -93,6 +174,6 @@ ScrollReveal().reveal('.contact-us', {
     mobile: false 
  });
 
-// ScrollReveal().reveal('.footer');
+
 
 $(document).foundation()
