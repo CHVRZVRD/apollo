@@ -86,19 +86,16 @@ body section h2 {
     .button:visited:active,
     .button:visited:focus {
       outline: none;
-      transform: translateY(-1px);
-      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); }
+      transform: translateY(-1px); }
   .icon:hover,
   .button:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); }
+    transform: translateY(-3px); }
   .icon {
     transition: .2s ease-in-out;
     cursor: pointer; }
     .icon:active, .icon:focus {
       outline: none;
-      transform: translateY(-1px);
-      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); }
+      transform: translateY(-1px); }
   .footer-link:hover {
     transition: .2s ease-in-out;
     color: #0A8255; }
@@ -106,7 +103,75 @@ body section h2 {
   .phone:hover,
   .location:hover,
   .employee:hover {
-    color: #DAFFF0; } }
+    color: #DAFFF0; }
+  .button-modal:hover {
+    transform: translateY(0px); } }
+
+.draw-border {
+  color: white;
+  transition: color 0.25s 0.08333s;
+  position: relative; }
+  .draw-border::before, .draw-border::after {
+    border: 0 solid transparent;
+    box-sizing: border-box;
+    content: '';
+    pointer-events: none;
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 0;
+    right: 0; }
+  .draw-border::before {
+    border-bottom-width: 1px;
+    border-left-width: 1px; }
+  .draw-border::after {
+    border-top-width: 1px;
+    border-right-width: 1px; }
+  .draw-border:hover {
+    color: #DAFFF0;
+    transform: translateY(0px); }
+    .draw-border:hover::before, .draw-border:hover::after {
+      border-color: #DAFFF0;
+      transition: border-color 0s, width 0.25s, height 0.25s;
+      width: 100%;
+      height: 100%; }
+    .draw-border:hover::before {
+      transition-delay: 0s, 0s, 0.25s; }
+    .draw-border:hover::after {
+      transition-delay: 0s, 0.25s, 0s; }
+
+.draw-border-secondary {
+  color: white;
+  transition: color 0.25s 0.08333s;
+  position: relative; }
+  .draw-border-secondary::before, .draw-border-secondary::after {
+    border: 0 solid transparent;
+    box-sizing: border-box;
+    content: '';
+    pointer-events: none;
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 0;
+    right: 0; }
+  .draw-border-secondary::before {
+    border-bottom-width: 1px;
+    border-left-width: 1px; }
+  .draw-border-secondary::after {
+    border-top-width: 1px;
+    border-right-width: 1px; }
+  .draw-border-secondary:hover {
+    color: #0A8255;
+    transform: translateY(0px); }
+    .draw-border-secondary:hover::before, .draw-border-secondary:hover::after {
+      border-color: #0A8255;
+      transition: border-color 0s, width 0.25s, height 0.25s;
+      width: 100%;
+      height: 100%; }
+    .draw-border-secondary:hover::before {
+      transition-delay: 0s, 0s, 0.25s; }
+    .draw-border-secondary:hover::after {
+      transition-delay: 0s, 0.25s, 0s; }
 
 .hero {
   background-position: right; }
@@ -148,15 +213,15 @@ body .services {
       position: absolute;
       bottom: 5px;
       left: 50%;
-      transform: translate(-50%, -50%); }
+      transform: translate(-50%, -50%);
+      transition: .2s ease-in-out; }
       @media screen and (min-width: 40em) {
         body .services .callout .button:hover {
-          transform: translate(-50%, -50%) translateY(-3px);
-          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); } }
+          transform: translate(-50%, -50%) translateY(0px);
+          background-color: #c7fce6; } }
       body .services .callout .button:active, body .services .callout .button:focus {
         outline: none;
-        transform: translate(-50%, -50%) translateY(-1px);
-        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); }
+        transform: translate(-50%, -50%) translateY(-1px); }
   body .services .service {
     margin-top: 32px; }
     body .services .service-icon {
