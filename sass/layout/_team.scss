@@ -19,12 +19,10 @@
             margin: auto;
         }
 
-        // &-img {
-        //     position: absolute;
-		//     // bottom: 5px;
-		//     left: 50%;
-		//     transform: translate(-50%, -50%);
-        // }
+        &-img {
+            max-width: 184px;
+            border-radius: 50%;
+        }
     }
     &-title {
         display: flex;

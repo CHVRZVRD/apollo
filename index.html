@@ -78,6 +78,91 @@
       </div>
     </div>
   </div>
+
+
+
+  <div class="donate reveal small" id="donate" data-reveal>
+    <div class="header">
+      <h2>Donate</h2>
+    </div>
+    <div class="grid-container grid-padding-x">
+      <div class="large-12 cell">
+        <div>
+          <div class="is-active">
+            <form data-abide novalidate>
+              <div data-abide-error class="alert callout" style="display: none;">
+                <p><i class="fi-alert"></i> There are some errors in your form.</p>
+              </div>
+              <p class="donate-blurb lead">With your donation cum autem facilisis ne, cu ferri ridens ornatus sea. Clita deleniti probatus id vim, mel no lorem senserit, tale apeirian no sed. In errem zril laoreet quo, pri an ipsum lorum tractatos qualisque.</p>
+              <form>
+                <div class="small-12 columns">
+                  <label>What would you like to donate?
+                    <textarea type="text" placeholder="example: books, furniture, money, etc." aria-describedby="exampleHelpText"></textarea>
+                  </label>
+                </div>
+                <!-- <div class="grid-container"> -->
+                  <div class="grid-x grid-padding-x">
+                    <div class="medium-6 cell">
+                      <label>First Name
+                        <input type="text" placeholder="">
+                      </label>
+                    </div>
+                    <div class="medium-6 cell">
+                      <label>Last Name
+                        <input type="text" placeholder="">
+                      </label>
+                    </div>
+                  </div>
+                <!-- </div> -->
+                <!-- <div class="grid-container"> -->
+                  <div class="grid-x grid-padding-x">
+                    <div class="medium-6 cell">
+                      <label>Email
+                        <input type="text" placeholder="">
+                      </label>
+                    </div>
+                    <div class="medium-6 cell">
+                      <label>Phone
+                        <input type="text" placeholder="">
+                      </label>
+                    </div>
+                  </div>
+                <!-- </div> -->
+              </form>
+              <p class="donate-attention">ATTENTION: Though we are not able to give tax-deductible receipts for donations, we graciously accept any donations that will help our clients attain their individual goals and become more successful. Training materials, computers, office supplies, and so forth are greatly appreciated.</p>
+              <div class="row">
+                <fieldset data-open="thankyou" class="large-12 columns">
+                  <a href="#thankyou" class="button button-modal expanded" type="submit" value="Submit">Submit</a>
+                </fieldset>
+              </div>
+            <!-- </form> -->
+          </div>
+        </div>
+        <button class="close-button" data-close aria-label="Close modal" type="button">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="thankyou reveal tiny" id="thankyou" data-reveal>
+    <div class="header">
+      <h2>Thank You</h2>
+    </div>
+    <div class="grid-container grid-padding-x">
+      <div class="large-12 cell">
+        <p class="callout text-center">Your information will be sent to the project coordinator, Aileen. She will contact you shortly to finalize your donation.</p>
+        <button class="close-button" data-close aria-label="Close modal" type="button">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+
+
+
   <body>
     <div class="off-canvas position-right" id="offCanvas" data-off-canvas>
       <ul class="vertical menu">
@@ -86,7 +171,7 @@
         <li><a href="#services">Services</a></li>
         <li><a href="#ceo">Team</a></li>
         <li><a href="#contact-us">Contact</a></li>
-        <li><a href="#">Donate</a></li>
+        <li data-open="donate"><a href="#donate">Donate</a></li>
       </ul>
     </div>
     <div class="off-canvas-content" data-off-canvas-content>
@@ -125,7 +210,7 @@
                 <li class="show-for-large"><a href="#services">Services</a></li>
                 <li class="show-for-large"><a href="#ceo">Team</a></li>
                 <li class="show-for-large"><a href="#contact-us">Contact</a></li>
-                <li class="show-for-large"><a class="button" href="#">Donate</a></li>
+                <li class="show-for-large" data-open="donate"><a class="button" href="#donate">Donate</a></li>
               </ul>
             </div>
           </div>
@@ -337,7 +422,7 @@
                   </div>       
                   <div class="team-pictures">
                     <div class="team-pictures-box">
-                      <img class="team-pictures-img" src="assets/team.patrick-laurel.jpg" alt="Patrick Laurel">
+                      <img src="assets/team.patrick-laurel.jpg" class="team-pictures-img" alt="Patrick Laurel">
                       <h6>Patrick Laurel</h6>
                       <div class="team-title">
                         <p>Program Manager</p>
@@ -347,7 +432,7 @@
                       </div>  
                     </div>
                     <div class="team-pictures-box">
-                      <img src="assets/team.aileen-laurel.jpg" alt="Aileen Laurel">
+                      <img src="assets/team.aileen-laurel.jpg" class="team-pictures-img" alt="Aileen Laurel">
                       <h6>Aileen Laurel</h6>
                       <div class="team-title">
                         <p>Program Coordinator</p>
@@ -357,7 +442,7 @@
                       </div>  
                     </div> 
                     <div class="team-pictures-box">
-                      <img src="assets/team.willie-andres.jpg" alt="Willie Andres">
+                      <img src="assets/team.willie-andres.jpg" class="team-pictures-img" alt="Willie Andres">
                       <h6>Willie Andres</h6>
                       <div class="team-title">
                         <p>Lead Staff</p>
@@ -367,7 +452,7 @@
                       </div>  
                     </div>
                     <div class="team-pictures-box">
-                      <img src="assets/photo.team1.jpg" alt="team-member">
+                      <img src="assets/team.aileen-laurel.jpg" class="team-pictures-img" alt="team-member">
                       <h6>Roxanne Luistro</h6>
                       <div class="team-title">
                         <p>Community Outreach</p>
@@ -377,7 +462,7 @@
                       </div>  
                     </div>
                     <div class="team-pictures-box">
-                      <img src="assets/team.onie-cigaral.jpg" alt="Onie Cigaral">
+                      <img src="assets/team.onie-cigaral.jpg" class="team-pictures-img" alt="Onie Cigaral">
                       <h6>Onie Cigaral</h6>
                       <div class="team-title">
                         <p>Executive Assistant</p>
@@ -393,26 +478,62 @@
       </section>
       <section class="testimonials">
         <div class="grid-container">
-          <div class="grid-x grid-padding-x small-up-1 medium-up-3">
-            <div class="medium-4 cell testimonials-box">
+          <div class="grid-x grid-padding-x medium-up-3">
+            <div class="cell testimonials-box small-12 medium-6 auto">
+              <div class="testimonials-icons">
+                <div class="testimonials-picture">
+                  <img src="assets/sara.jpg" alt="Sara" class="testimonials-img">
+                </div>
+                <div class="testimonials-quotes">
+                  <img src="assets/icons/quotes2.svg" alt="quotes">
+                </div>
+              </div>
               <div class="testimonials-text">
-                <h6>Viola Wang</h6>
-                <p>Program Participant</p>
-                <p>Lorum ipsum sed diam eget risus lorp varius blandit sit amet non magna zedo porta sed.</p>
+                <div class="testimonials-title">
+                  <h6>Sara Rodriguez</h6>
+                  <p>Program Participant</p>
+                </div>
+                <div class="testimonials-testimonial">
+                  <p class="testimonials-testimonial-text">I like Apollo a lot! I went to a different Day Program before but think Apollo is a better fit for me. They teach me work skills, they know how to work with me when I am upset, and I feel like we're family! Apollo is fun and makes me happy!</p>
+                </div>
               </div>
             </div>
-            <div class="medium-4 cell testimonials-box">
+            <div class="cell testimonials-box small-12 medium-6 auto">
+              <div class="testimonials-icons">
+                <div class="testimonials-picture">
+                  <img src="assets/jacob.jpg" alt="Jacob" class="testimonials-img">
+                </div>
+                <div class="testimonials-quotes">
+                  <img src="assets/icons/quotes2.svg" alt="quotes">
+                </div>
+              </div>
               <div class="testimonials-text">
-                <h6>Viola Wang</h6>
-                <p>Program Participant</p>
-                <p>Lorum ipsum sed diam eget risus lorp varius blandit sit amet non magna zedo porta sed.</p>
+                <div class="testimonials-title">
+                  <h6>Jamie Scalero</h6>
+                  <p>Mother of Jacob, Program Participant</p>
+                </div>
+                <div class="testimonials-testimonial">
+                  <p class="testimonials-testimonial-text">Jacob has been attending Apollo since leaving school, for almost 20 years. The staff are patient, friendly and fun! The program has been very well suited to his needs and he looks forward to going to Apollo each day. He has opportunities to go into the community, to grow and improve his socialization skills, and also to just be himself in a caring and safe place. As a parent and caregiver, I am very thankful for the Apollo program.</p>
+                </div>
               </div>
             </div>
-            <div class="medium-4 cell testimonials-box">
+            <div class="cell testimonials-box hide-for-medium-only small-12">
+              <div class="testimonials-icons">
+                <div class="testimonials-picture">
+                  <img src="assets/michael.jpg" alt="" class="testimonials-img">
+                </div>
+                <div class="testimonials-quotes">
+                  <img src="assets/icons/quotes2.svg" alt="quotes">
+                </div>
+              </div>
               <div class="testimonials-text">
-                <h6>Viola Wang</h6>
-                <p>Program Participant</p>
-                <p>Lorum ipsum sed diam eget risus lorp varius blandit sit amet non magna zedo porta sed.</p>
+                <div class="testimonials-title">
+                  <h6>Michael Depew</h6>
+                  <p>Program Participant</p>
+                </div>
+                <div class="testimonials-testimonial">
+                  <p class="testimonials-testimonial-text">I like Apollo because everyone here is nice to me. I like the activities and outings. They let me pick what I want to do and that makes me happy.</p>
+                </div>
               </div>
             </div>
           </div>

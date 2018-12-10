@@ -52,6 +52,12 @@ body section h2 {
   .testimonials h3, .testimonials h6 {
     font-weight: bold;
     margin-bottom: 2px; }
+  .testimonials-testimonial-text {
+    margin-bottom: 0px; }
+
+@media screen and (max-width: 39.9375em) {
+  .testimonials-testimonial {
+    padding-bottom: 36px; } }
 
 .contact-us h6 {
   font-weight: bold;
@@ -74,6 +80,22 @@ body section h2 {
 .footer .button {
   color: #ffffff;
   font-weight: bold; }
+
+.donate-blurb {
+  margin-top: 28px;
+  margin-bottom: 28px; }
+
+.donate-attention {
+  color: #9B9B9B; }
+
+.thankyou p {
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+.thankyou .callout {
+  border: none;
+  text-align: left;
+  padding: 0px; }
 
 @media screen and (min-width: 40em) {
   .icon:link, .icon:visited,
@@ -173,6 +195,12 @@ body section h2 {
     .draw-border-secondary:hover::after {
       transition-delay: 0s, 0.25s, 0s; }
 
+.donate textarea {
+  height: 8rem; }
+
+.donate .button {
+  margin-bottom: 30px; }
+
 .hero {
   background-position: right; }
 
@@ -261,19 +289,37 @@ body .services {
   flex-wrap: wrap; }
   .team-pictures-box {
     margin: auto; }
+  .team-pictures-img {
+    max-width: 184px;
+    border-radius: 50%; }
 
 .team-title {
   display: flex;
   justify-content: space-between; }
 
 .testimonials {
-  background: #0A8255;
-  padding-top: 3rem; }
+  background: #0A8255; }
+  .testimonials-img {
+    width: 50px;
+    border-radius: 50%;
+    display: block;
+    margin-left: 22px; }
+  .testimonials-quotes {
+    padding-top: 19px;
+    align-self: center; }
   .testimonials-box {
-    background: url(../assets/icons/quotes2.svg) no-repeat left; }
+    display: flex; }
+  .testimonials-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 15px;
+    flex-shrink: 0; }
   .testimonials-text {
-    padding-left: 68px;
-    padding-top: 73px; }
+    display: flex;
+    flex-direction: column; }
+  .testimonials-title {
+    padding-top: 4px; }
 
 .contact-us {
   background: url(../assets/map.jpg) center; }
